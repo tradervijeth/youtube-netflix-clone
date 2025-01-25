@@ -2,4 +2,70 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Add any custom global styles here */
+/* Custom global styles */
+body {
+  background-color: #141414; /* Netflix dark background */
+  color: #e5e5e5; /* Netflix text color */
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.video-card {
+  background-color: #1f1f1f;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.video-card:hover {
+  transform: scale(1.05);
+}
+
+.video-modal {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+  max-width: 800px;
+  width: 100%;
+}
+
+.category-tab {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.category-tab:hover {
+  background-color: #555;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px 0 0 5px;
+  border: none;
+  outline: none;
+}
+
+.search-button {
+  padding: 10px;
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-button:hover {
+  background-color: #f40612;
+}
