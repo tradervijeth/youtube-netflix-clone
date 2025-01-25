@@ -2,8 +2,8 @@ import React from 'react';
 
 function VideoModal({ video, onClose }) {
   return (
-    <div className="video-modal">
-      <div className="modal-content">
+    <div className="video-modal fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center">
+      <div className="modal-content bg-white p-4 rounded-lg">
         <button onClick={onClose} className="close-button">Close</button>
         <iframe
           width="560"
