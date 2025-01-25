@@ -25,7 +25,7 @@ This project is a Netflix-style video player application built with React and Ta
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/youtube-netflix-clone.git
+   git clone https://github.com/tradervijeth/youtube-netflix-clone.git
    cd youtube-netflix-clone
    ```
 2. Install dependencies:
